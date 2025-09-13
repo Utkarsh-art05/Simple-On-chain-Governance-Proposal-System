@@ -1,0 +1,15 @@
+[package]
+name = "SimpleOn-chain-Governance-Proposal-System"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x9fa17e21f54a2ba76af1d607cf296395979c8bba238a5430dfc1280a240243da"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
